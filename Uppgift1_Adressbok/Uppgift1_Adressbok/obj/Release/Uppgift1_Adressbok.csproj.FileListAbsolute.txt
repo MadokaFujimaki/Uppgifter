@@ -1,0 +1,8 @@
+C:\Users\madok\Desktop\Nackademin\c#\Uppgifter\Uppgift1_Adressbok\Uppgift1_Adressbok\bin\Release\Uppgift1_Adressbok.exe.config
+C:\Users\madok\Desktop\Nackademin\c#\Uppgifter\Uppgift1_Adressbok\Uppgift1_Adressbok\bin\Release\Uppgift1_Adressbok.exe
+C:\Users\madok\Desktop\Nackademin\c#\Uppgifter\Uppgift1_Adressbok\Uppgift1_Adressbok\bin\Release\Uppgift1_Adressbok.pdb
+C:\Users\madok\Desktop\Nackademin\c#\Uppgifter\Uppgift1_Adressbok\Uppgift1_Adressbok\obj\Release\Uppgift1_Adressbok.Form1.resources
+C:\Users\madok\Desktop\Nackademin\c#\Uppgifter\Uppgift1_Adressbok\Uppgift1_Adressbok\obj\Release\Uppgift1_Adressbok.Properties.Resources.resources
+C:\Users\madok\Desktop\Nackademin\c#\Uppgifter\Uppgift1_Adressbok\Uppgift1_Adressbok\obj\Release\Uppgift1_Adressbok.csproj.GenerateResource.Cache
+C:\Users\madok\Desktop\Nackademin\c#\Uppgifter\Uppgift1_Adressbok\Uppgift1_Adressbok\obj\Release\Uppgift1_Adressbok.exe
+C:\Users\madok\Desktop\Nackademin\c#\Uppgifter\Uppgift1_Adressbok\Uppgift1_Adressbok\obj\Release\Uppgift1_Adressbok.pdb

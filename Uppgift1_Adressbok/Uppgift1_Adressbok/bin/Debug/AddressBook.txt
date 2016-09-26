@@ -1,0 +1,2 @@
+Christian,ABCD123,12345,Stockholm,12346678,christian@nackae
+Madoka Fujimaki,Lysviksgatan,12345,Farsta,123456789,madoka@nacka.se

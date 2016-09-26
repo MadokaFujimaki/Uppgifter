@@ -11,3 +11,12 @@ C:\Users\madok\Desktop\Nackademin\c#\Uppgifter\Uppgift1_Adressbok\Uppgift1_Adres
 C:\Users\madok\Desktop\Github\Uppgifter\Uppgift1_Adressbok\Uppgift1_Adressbok\bin\Debug\Uppgift1_Adressbok.exe.config
 C:\Users\madok\Desktop\Github\Uppgifter\Uppgift1_Adressbok\Uppgift1_Adressbok\obj\Debug\Uppgift1_Adressbok.exe
 C:\Users\madok\Desktop\Github\Uppgifter\Uppgift1_Adressbok\Uppgift1_Adressbok\obj\Debug\Uppgift1_Adressbok.pdb
+C:\Users\madok\Desktop\Github\Uppgifter\Uppgifter\Uppgift1_Adressbok\Uppgift1_Adressbok\bin\Debug\Uppgift1_Adressbok.exe.config
+C:\Users\madok\Desktop\Github\Uppgifter\Uppgifter\Uppgift1_Adressbok\Uppgift1_Adressbok\obj\Debug\Uppgift1_Adressbok.exe
+C:\Users\madok\Desktop\Github\Uppgifter\Uppgifter\Uppgift1_Adressbok\Uppgift1_Adressbok\obj\Debug\Uppgift1_Adressbok.pdb
+C:\Users\madok\Desktop\Github\Uppgifter\Uppgifter\Uppgift1_Adressbok\Uppgift1_Adressbok\bin\Debug\Uppgift1_Adressbok.exe
+C:\Users\madok\Desktop\Github\Uppgifter\Uppgifter\Uppgift1_Adressbok\Uppgift1_Adressbok\bin\Debug\Uppgift1_Adressbok.pdb
+C:\Users\madok\Desktop\Github\Uppgifter\Uppgifter\Uppgift1_Adressbok\Uppgift1_Adressbok\obj\Debug\Uppgift1_Adressbok.csprojResolveAssemblyReference.cache
+C:\Users\madok\Desktop\Github\Uppgifter\Uppgifter\Uppgift1_Adressbok\Uppgift1_Adressbok\obj\Debug\Uppgift1_Adressbok.Form1.resources
+C:\Users\madok\Desktop\Github\Uppgifter\Uppgifter\Uppgift1_Adressbok\Uppgift1_Adressbok\obj\Debug\Uppgift1_Adressbok.Properties.Resources.resources
+C:\Users\madok\Desktop\Github\Uppgifter\Uppgifter\Uppgift1_Adressbok\Uppgift1_Adressbok\obj\Debug\Uppgift1_Adressbok.csproj.GenerateResource.Cache

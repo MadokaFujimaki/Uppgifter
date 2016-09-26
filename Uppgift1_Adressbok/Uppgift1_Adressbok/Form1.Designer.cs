@@ -256,7 +256,7 @@
             // 
             this.ButtonSearch.BackColor = System.Drawing.Color.Black;
             this.ButtonSearch.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.ButtonSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonSearch.ForeColor = System.Drawing.Color.White;
             this.ButtonSearch.Location = new System.Drawing.Point(335, 50);
             this.ButtonSearch.Name = "ButtonSearch";
@@ -321,7 +321,7 @@
             // 
             this.ButtonClearSelected.BackColor = System.Drawing.Color.Transparent;
             this.ButtonClearSelected.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ButtonClearSelected.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonClearSelected.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonClearSelected.ForeColor = System.Drawing.Color.Black;
             this.ButtonClearSelected.Location = new System.Drawing.Point(28, 364);
             this.ButtonClearSelected.Name = "ButtonClearSelected";

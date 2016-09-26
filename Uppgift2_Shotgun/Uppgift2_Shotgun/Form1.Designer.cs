@@ -192,7 +192,7 @@
             this.ButtonStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonStart.Location = new System.Drawing.Point(247, 406);
             this.ButtonStart.Name = "ButtonStart";
-            this.ButtonStart.Size = new System.Drawing.Size(75, 23);
+            this.ButtonStart.Size = new System.Drawing.Size(75, 28);
             this.ButtonStart.TabIndex = 20;
             this.ButtonStart.Text = "START";
             this.ButtonStart.UseVisualStyleBackColor = false;
@@ -309,7 +309,6 @@
             this.PctureBoxBackground.Size = new System.Drawing.Size(528, 448);
             this.PctureBoxBackground.TabIndex = 21;
             this.PctureBoxBackground.TabStop = false;
-   
             // 
             // PictureBoxTitle
             // 

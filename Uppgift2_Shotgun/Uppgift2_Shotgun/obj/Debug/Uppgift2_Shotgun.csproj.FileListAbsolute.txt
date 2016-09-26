@@ -8,3 +8,12 @@ C:\Users\madok\Desktop\Nackademin\c#\Uppgifter\Uppgift2_Shotgun\Uppgift2_Shotgun
 C:\Users\madok\Desktop\Nackademin\c#\Uppgifter\Uppgift2_Shotgun\Uppgift2_Shotgun\obj\Debug\Uppgift2_Shotgun.csproj.GenerateResource.Cache
 C:\Users\madok\Desktop\Nackademin\c#\Uppgifter\Uppgift2_Shotgun\Uppgift2_Shotgun\obj\Debug\Uppgift2_Shotgun.exe
 C:\Users\madok\Desktop\Nackademin\c#\Uppgifter\Uppgift2_Shotgun\Uppgift2_Shotgun\obj\Debug\Uppgift2_Shotgun.pdb
+C:\Users\madok\Desktop\Github\Uppgifter\Uppgifter\Uppgift2_Shotgun\Uppgift2_Shotgun\bin\Debug\Uppgift2_Shotgun.exe.config
+C:\Users\madok\Desktop\Github\Uppgifter\Uppgifter\Uppgift2_Shotgun\Uppgift2_Shotgun\obj\Debug\Uppgift2_Shotgun.exe
+C:\Users\madok\Desktop\Github\Uppgifter\Uppgifter\Uppgift2_Shotgun\Uppgift2_Shotgun\obj\Debug\Uppgift2_Shotgun.pdb
+C:\Users\madok\Desktop\Github\Uppgifter\Uppgifter\Uppgift2_Shotgun\Uppgift2_Shotgun\bin\Debug\Uppgift2_Shotgun.exe
+C:\Users\madok\Desktop\Github\Uppgifter\Uppgifter\Uppgift2_Shotgun\Uppgift2_Shotgun\bin\Debug\Uppgift2_Shotgun.pdb
+C:\Users\madok\Desktop\Github\Uppgifter\Uppgifter\Uppgift2_Shotgun\Uppgift2_Shotgun\obj\Debug\Uppgift2_Shotgun.csprojResolveAssemblyReference.cache
+C:\Users\madok\Desktop\Github\Uppgifter\Uppgifter\Uppgift2_Shotgun\Uppgift2_Shotgun\obj\Debug\Uppgift2_Shotgun.Form1.resources
+C:\Users\madok\Desktop\Github\Uppgifter\Uppgifter\Uppgift2_Shotgun\Uppgift2_Shotgun\obj\Debug\Uppgift2_Shotgun.Properties.Resources.resources
+C:\Users\madok\Desktop\Github\Uppgifter\Uppgifter\Uppgift2_Shotgun\Uppgift2_Shotgun\obj\Debug\Uppgift2_Shotgun.csproj.GenerateResource.Cache

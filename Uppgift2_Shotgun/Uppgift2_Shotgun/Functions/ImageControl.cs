@@ -33,7 +33,6 @@ namespace Uppgift2_Shotgun
             //ImageToGame = GetImage(@"C:\Users\madok\Desktop\Nackademin\c#\Uppgifter\Uppgift2_Shotgun\Uppgift2_Shotgun\Resources\WaitPurple.jpg");
             ImageToGame = GetImage("Resources/WaitPurple.jpg");
             return ImageToGame;
-            return ImageToGame;
         }
 
 

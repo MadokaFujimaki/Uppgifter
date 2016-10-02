@@ -37,7 +37,7 @@ namespace Uppgift2_Shotgun
             Bullets = totalBulletEnemy;
              if (Bullets >= 3 && inputImage == ImageControl.ImageAiList[2] )
             {
-                return ImageControl.ImageAiList[3];
+                 return ImageControl.ImageAiList[3];
             }
             else
             {

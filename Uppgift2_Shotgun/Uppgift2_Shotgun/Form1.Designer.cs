@@ -309,6 +309,7 @@
             this.PctureBoxBackground.Size = new System.Drawing.Size(528, 448);
             this.PctureBoxBackground.TabIndex = 21;
             this.PctureBoxBackground.TabStop = false;
+            this.PctureBoxBackground.Click += new System.EventHandler(this.PctureBoxBackground_Click);
             // 
             // PictureBoxTitle
             // 

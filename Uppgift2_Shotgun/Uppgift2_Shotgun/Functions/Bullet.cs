@@ -39,12 +39,10 @@ namespace Uppgift2_Shotgun
             return Color.White;
         }
 
-
-
-
         public static void ConvertToShotgun( int totalBullet, Button inputText)
         {
             Bullets = totalBullet;
+
             if (Bullets >= 3)
             {
                 inputText.Text = "Shotgun";
@@ -60,6 +58,7 @@ namespace Uppgift2_Shotgun
         public static void ConvertToGun( int totalBullet, Button inputText)
         {
             Bullets = totalBullet;
+
             if (Bullets < 3)
             {
                 inputText.Text = "Skjuta";
@@ -67,10 +66,10 @@ namespace Uppgift2_Shotgun
             }
         }
 
-
         public static void ControlLebelMessage(int totalBullet, Label inputLabel)
         {
             Bullets = totalBullet;
+
             if (Bullets == 0)
             {
                 inputLabel.ForeColor = Color.DeepPink;
@@ -82,8 +81,6 @@ namespace Uppgift2_Shotgun
             }
         }
 
-
-
         public static bool ControlButtonShoot(int totalBullet, Button inputButton)
         {
             Bullets = totalBullet;
@@ -93,7 +90,5 @@ namespace Uppgift2_Shotgun
             }
             return inputButton.Enabled = true;
         }
-
-
     }
 }

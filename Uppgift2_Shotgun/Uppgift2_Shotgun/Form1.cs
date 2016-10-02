@@ -223,6 +223,9 @@ namespace Uppgift2_Shotgun
             LabelScoreAI.Text = scoreAi.ToString();
         }
 
-   
+        private void PctureBoxBackground_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--//43------------------------------------------------------------------------------------------------------------------------------>
+    <!--<img width="800" src="images/1.jpg" />-->
+    <!--11.	Gör en inmatningsrutin för namn och adress och telefon i ett formulär . Lägg till en knapp 'Flytta'.Bakrunden i formuläret skall vara grå-------->
+    <form id="form1" style="background:gray;">
+        namn<input />
+        adress<input />
+        telefon<input />
+        <button type="button" onclick="flytta()">Flytta</button>
+    </form>
+    <div></div>
+
+
+    <script>
+        //11.	Gör en inmatningsrutin för namn och adress och telefon i ett formulär . Lägg till en knapp 'Flytta'.Bakrunden i formuläret skall vara grå/////////////
+        //12.	 När du klickar på knappen ’Flytta’(enl. fråga 11) skall alla data i formuläret  skrivas ut på i en div nedanför formuläret . OBS att efternamn skall skrivas först och att postnummer och ort skrivs på samma  rad
+        //13.	Då du klickat på ’Flytta’ skall all text i formuläret försvinna
+        // 14.Lägg  till en ’Ångra’ funktion på valfritt sätt där du kan få tillbaka informationen som suddades i punkt 13 ovan.
+        //15.	Genom att klicka  på den grå delen i formuläret i fråga 11. kan du byta färg på texten i textboxarna Till rött.
+        //16.	Genom att klicka på förnamn i den nedre divven skall all info flyttas in i textboxarna(i formuläret) igen
+
+        document.getElementsByTagName("input")[0].addEventListener('click', function () {  //15
+            event.stopPropagation(); // Hindra bubbling
+        })
+        document.getElementsByTagName("input")[1].addEventListener('click', function () {
+            event.stopPropagation(); // Hindra bubbling
+        })
+
+        //document.getElementsByTagName("input")[0].focus();
+        var obj = {};  //15
+        $("#form1").on("click", function () {
+            var namn = document.getElementsByTagName("input")[0].style.color = 'red';
+            adress = document.getElementsByTagName("input")[1].style.color = 'red';
+        });
+        //document.getElementsByTagName("div")[0].
+        //addEventListener('click', function () {
+        //    var namn = document.getElementsByTagName("input")[0];
+        //    adress = document.getElementsByTagName("input")[1];
+        //    namn.value = obj.namn;
+        //    adress.value = obj.adress;
+        //})
+
+        function flytta() {
+            var namn = document.getElementsByTagName("input")[0];
+            adress = document.getElementsByTagName("input")[1];
+            var div = document.getElementsByTagName("div")[0];
+            var array = namn.value.split(" ");
+            div.innerHTML = array[1] + " "
+                +"<span id = span1>" + array[0] + "</span><br />" + adress.value;
+            obj.namn = namn.value;
+            obj.adress = adress.value;
+            namn.value = "";
+            adress.value = "";
+            $("#span1").on("click", function () {   //16
+                    var namn = document.getElementsByTagName("input")[0]; //elemens []
+                    adress = document.getElementsByTagName("input")[1];
+                    namn.value = obj.namn;
+                    adress.value = obj.adress;
+            })
+        }
+
+
+        //43.Du har 8 bilder
+        //Läs in alla bilderna i en array och visa dem som ett bildspel en i taget////////////////////////////////////////////////////////////////
+        //var array = [];
+        //var counter = 1;
+        //$("img").on('click', function () {
+        //    if (counter>array.length-1) { //repetera
+        //        counter = 0;
+        //    }
+        //    $(this).attr('src', array[counter].src);
+        //             //this.src = array[counter].src; //javascript version
+        //    counter++;
+        //});
+
+        //for (var i = 1; i < 9; i++) {
+        //    var img = new Image();
+        //    img.src = "images/" + i + ".jpg";
+        //    array.push(img);
+        //}
+        //console.log(array);
+
+
+        //49.Skriv med hjälp av javascript meningen ”ni talar bra latin” BAKLÄNGES i en paragraf/////////////////////////////////////
+        //var s = "ni talar bra latin";
+        //var array = s.split("");
+        //var s2 = "";
+        //for (var i = array.length-1; i >= 0; i--) {
+        //    s2 += array[i];
+        //}
+        //console.log(array, s2);
+
+        //52. Ta bort alla dubletter från arrayen 3,1,2,3,4,2,5,1///////////////////////////////////////////////////////////////////////////////////
+        //var array = [3, 1, 2, 3, 4, 3, 5, 1];
+        //array.sort();
+        //var sortedArray = [];
+        //sortedArray.push(array[0]);
+
+        //for (var i = 1; i < array.length; i++) {
+        //    if (sortedArray[sortedArray.length-1]==array[i]) {
+        //        continue;
+        //    }
+        //    else {
+        //        sortedArray.push(array[i]);
+        //    }
+        //}
+        //array = sortedArray;
+        //console.log(array);
+
+        //var array = [3, 1, 2, 3, 4, 3, 5, 1].filter(c => c);
+
+    </script>
+</body>
+</html>

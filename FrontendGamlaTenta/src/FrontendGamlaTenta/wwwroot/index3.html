@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <title></title>
+</head>
+<body>
+
+    <!--//40.--------------------------->
+    <select id="mySelect">
+        <option value="Klicka här">Klicka här</option>
+    </select>
+
+    <script>
+        var bilar=[];
+        var obj = {märke:"Volvo", regnummer:"ABC123",årsmodell:"2007",färge:"Grön"};
+        bilar.push(obj);
+        obj = {märke:"Saab", regnummer:"ABC222",årsmodell:"2001",färge:"Vit"};
+        bilar.push(obj);
+        obj = {märke:"Mazda", regnummer:"ABC333",årsmodell:"2010",färge:"Svart"};
+        bilar.push(obj);
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //var select = document.getElementById("mySelect");
+        //for (var i = 0; i < bilar.length; i++) {
+        //    var bil = bilar[i];
+
+        //    var option = document.createElement("option");
+        //    option.text=bil.märke;
+        //    option.value=bil.regnummer;
+        //    select.appendChild(option);
+        //}
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //console.log(bilar);
+        $(bilar).each(function (idx, obj) {
+            $("#mySelect").append("<option value =" + obj.regnummer + " >" + obj.märke + "</option>");
+        });
+
+    </script>
+</body>
+</html>

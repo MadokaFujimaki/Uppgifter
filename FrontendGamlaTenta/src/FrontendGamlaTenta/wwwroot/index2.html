@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <title></title>
+</head>
+<body>
+    <!--//40.--------------------------->
+    <select id="mySelect">
+        <option value="Klicka här">Klicka här</option>
+    </select>
+
+    <script>
+        //17. Du har en array [1,11,2,22,3,33,4,44]; Ta bort alla tal < 10//////////////////////
+        var array = [1, 11, 2, 22, 3, 33, 4, 44];
+        var array2 = [];
+        array2 = array.filter(function(v){
+            return v > 10;
+        });
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        array2 = array.filter((v) =>v > 10);
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //for (var i = 0; i < array.length; i++) {
+        //    if(array[i]<10)
+        //    {
+        //        continue;
+        //    }
+        //    array2.push(array[i]);
+        //}
+        //array = array2;
+        console.log(array2);
+
+        //18.
+        //Gör om värdet rgb(251,252,253) till hexkod #?????? //////////////////////////////////////////////////
+        #fbfcfd
+
+        //19. Du har en array  [1,11,2,22,3,33,4,44]; skriv kod för att öka alla värden med 1  //////////
+        var array = [1,11,2,22,3,33,4,44];
+        var array2 = [];
+        for (var i = 0; i < array.length; i++) {
+            array2.push(array[i]+1);
+        }
+        array = array2;
+        console.log(array);
+
+        //20.      
+       //Skriv en function A i javascript som anropar en annan function B som returnerar värdet HEJ. Skriv ut det värdet i en meddelanderuta(alert) i den första functionen(A)
+        //a();
+        ( function a(){
+            alert(b());
+        })();
+        function b(){
+            return "hej";
+        }
+
+        //23. När blir c 3?  var c=a>b?1:a<b?2:3;/////////////////////////////////////////////////////////////////
+        a=7;
+        b=7;
+        var c=a>b?1:a<b?2:3;
+        alert(c);
+
+        //24. Du har en array med två tal. Undersök vilket som äör störst och skriv ut detta i console.log//////////////////////////////////////
+        var a =[4,5];
+        var c = a[0] >a[1]? a[0]: a[0] <a[1]? a[1]:"Lika stora";
+        console.log(c);
+
+        //if (a[0]>a[1]) {
+        //    c=a[0];
+        //}
+        //else if(a[0] <a[1]) c=a[1];
+        //else c="lika stora";
+
+        //25.Du har en array med tre tal. Undersök vilket som är störst och skriv ut detta i console.log///////////////////////////////////////
+        var a =[3,2,1];
+        //var max =-1234444;
+        var max = Number.MIN_VALUE;
+        for (var i = 0; i < a.length; i++) {
+            if(a[i]>max) max=a[i];
+        }
+        console.log(max);
+
+        //26.Du har en string som innehåller 1 tecken. Om detta tecken är en vokal skriv ut ordet vokal i console.log Annars ingenting
+        vokaler = ['a', 'e', 'i', 'o', 'u','A', 'E', 'I', 'O', 'U'];
+        var tkn = 'u';
+        for (var i = 0; i < vokaler.length; i++) {
+            if(tkn == vokaler[i])
+            {
+                console.log(tkn,'vokal');
+                break;
+            }
+        }
+
+
+
+    </script>
+</body>
+</html>
